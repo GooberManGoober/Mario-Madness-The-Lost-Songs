@@ -1,0 +1,56 @@
+[
+	{
+		"profile": "default",
+		"pkgs": [
+			{
+				"name": "flixel",
+				"version": "5.3.1"
+			},
+			{
+				"name": "flixel-addons",
+				"version": "3.1.1"
+			},
+			{
+				"name": "flixel-tools",
+				"version": "1.5.1"
+			},
+			{
+				"name": "flixel-ui",
+				"version": "2.5.0"
+			},
+			{
+				"name": "hscript",
+				"version": "2.7.0"
+			},
+			{
+				"name": "hxCodec",
+				"version": "2.6.1"
+			},
+			{
+				"name": "hxcpp",
+				"link": "https://github.com/HaxeFoundation/hxcpp",
+				"branch": "4cff17a5a5e2076750f00a1bf74379a9f1ee57e9"
+			},
+			{
+				"name": "hxcpp-debug-server",
+				"version": "1.2.4"
+			},
+			{
+				"name": "lime",
+				"version": "8.0.2"
+			},
+			{
+				"name": "linc_discord-rpc",
+				"link": "https://github.com/Aidan63/linc_discord-rpc"
+			},
+			{
+				"name": "linc_luajit",
+                "version": "0.0.7"
+			},
+			{
+				"name": "openfl",
+				"version": "9.2.0"
+			}
+		]
+	}
+]

@@ -63,8 +63,6 @@
 		<library name="shared"        preload="false" />
 	</section>
 	
-	<haxelib name="hxcodec" version="2.6.1" />
-
 	<assets path="plugins/"             rename=''               if="VIDEOS_ALLOWED windows" />
 	<assets path="dlls/"                rename=''               if="VIDEOS_ALLOWED windows" />
 	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
@@ -87,26 +85,21 @@
 	<assets path="assets/fonts" embed='true'/>
 	<!-- _______________________________ Libraries ______________________________ -->
 	
-	<haxelib name="flixel" />
+	<haxelib name="flixel" version="5.3.1"/>
+	<haxelib name="flixel-addons" version="3.1.1"/>
+	<haxelib name="flixel-ui" version="2.5.0"/>
+
+	<haxelib name="hscript" version="2.7.0"/>
+	<haxelib name="hxCodec" version="2.6.1"/>
+	<haxelib name="hxcpp"/>
+
+	<haxelib name="lime" version="8.0.2"/>
+	<haxelib name="linc_discord-rpc" if="desktop"/>
+	<haxelib name="linc_luajit" version="0.0.7" if="LUA_ALLOWED"/>
+
+	<haxelib name="openfl" version="9.2.0"/>
+
 	<haxedev set='webgl' />
-	
-	<!--In case you want to use the addons package-->
-	<haxelib name="flixel-addons" />
-	<haxelib name="hscript" />
-	
-	<!--In case you want to use the ui package-->
-	<haxelib name="flixel-ui" />
-	<haxelib name="linc_luajit" if="LUA_ALLOWED"/>
-	<haxelib name="faxe" if='switch'/>
-	<!--<haxelib name="polymod"/> -->
-	<haxelib name="discord_rpc" if="desktop"/>
-	<!-- <haxelib name="hxcpp-debug-server" if="desktop"/> -->
-	
-	<!-- <haxelib name="markdown" /> -->
-	<!-- <haxelib name="HtmlParser" /> -->
-	
-	<!--In case you want to use nape with flixel-->
-	<!--<haxelib name="nape-haxe4" />-->
 	
 	<!-- ______________________________ Haxedefines _____________________________ -->
 	
